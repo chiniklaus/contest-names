@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/chiniklaus/fsjs#readme",
   "dependencies": {
+    "ejs": "^3.0.2",
     "express": "^4.17.1",
     "mongodb": "^3.5.6",
     "prop-types": "^15.7.2",
