@@ -9,7 +9,7 @@ const Header = ({message}) => {
     )
 }
 
-Header.PropTypes = {
+Header.propTypes = {
     headerMesage: PropTypes.string
 };
 
