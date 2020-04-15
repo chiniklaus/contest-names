@@ -14,3 +14,8 @@ export const fetchContestList = () => {
     return axios.get(`/api/contests`)
                 .then(resp => resp.data.contests);
 }
+
+export const addName = (newName, contestId) => {
+    return axios.post('/api/names', { newName, contestId })
+                .then(resp => resp.data);
+}
